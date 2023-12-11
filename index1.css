@@ -1,0 +1,47 @@
+/* General CSS Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff5733;
+    padding: 4px 0;
+}
+
+/* Navbar CSS Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .text {
+    color: #fff;
+    margin-left: 20px;
+    padding: 0; /* Add this line */
+}
+
+.text {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 0; /* Add this line */
+}
+
+.nav-links, .nav-right {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li a, .nav-right li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-links li a:hover, .nav-right li a:hover {
+    background-color: #000;
+}
